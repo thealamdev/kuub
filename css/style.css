@@ -1,0 +1,632 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* ================== nav css start ==============*/
+
+#nav {
+    background: rgba(30, 27, 36, 0.575);
+    position: absolute;
+    width: 100%;
+}
+
+.menu_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_logo {
+    padding-top: 35px;
+}
+
+
+
+.menu_list {
+    line-height: 90px;
+}
+
+.menu_list ul li {
+    display: inline-block;
+    padding-left: 45px;
+}
+
+.menu_list ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.menu_list ul li a:hover {
+    color: #26a9c7;
+}
+
+/* =========================== banner part start ========================= */
+
+#banner {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 325px;
+    padding-bottom: 250px;
+}
+
+.banner_text {
+    text-align: center;
+}
+
+.banner_text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    line-height: 22px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.banner_text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    line-height: 22px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.banner_text p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: white;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+
+/* ========================= about part start ==================== */
+
+.about_text {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.about_text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #444444;
+    text-transform: capitalize;
+}
+
+.about_text p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+    padding-top: 30px;
+}
+
+/* ==================== service part start=============== */
+#service {
+    margin-bottom: 80px;
+}
+
+.service_header {
+    text-align: center;
+}
+
+.service_header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #444444;
+    text-transform: uppercase;
+}
+
+.service_main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.service_item {
+    width: 370px;
+    border: 1px solid #e3e3e3;
+    padding: 15px;
+}
+
+.service_photo img {
+    width: 100%;
+}
+
+.service_text {
+    text-align: center;
+}
+
+.service_text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #444444;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+
+.service_text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+    padding-top: 15px;
+}
+
+/* =================== portfolio part start ================= */
+
+#portfolio {
+    padding: 50px 0;
+    background: #2c2c2c;
+}
+
+.common_head {
+    text-align: center;
+}
+
+.common_head h2::after {
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: -120px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+
+}
+
+.common_head h2::before {
+    position: absolute;
+    content: '';
+    top: 10px;
+    right: -120px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+
+}
+
+.common_head h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #f2d6db;
+    text-transform: uppercase;
+    display: inline;
+    position: relative;
+}
+
+.portfolio_main {
+    display: flex;
+    margin-top: 44px;
+}
+
+.portfolio_item {
+    width: 25%;
+}
+
+.portfolio_item img {
+    width: 100%;
+}
+
+.portfolio_button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.portfolio_button a {
+    display: inline-block;
+    color: #a6a6a6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid #797979;
+    padding: 17px 14px;
+}
+
+.portfolio_button i {
+    padding-right: 5px;
+}
+
+/* ===================== journal part start =====================  */
+
+#journal {
+    background: #f9f9f9;
+    padding-bottom: 80px;
+}
+
+.journal_padding {
+    padding-top: 75px;
+}
+
+.journal_padding h2 {
+    color: #444444;
+}
+
+.journal_main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.journal_item {
+    width: 370px;
+    border: 1px solid #e3e3e3;
+}
+
+.journal_heading {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.journal_heading h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #444444;
+    text-transform: capitalize;
+}
+
+.journal_heading p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.journal_photo img {
+    width: 100%;
+}
+
+.journal_footer {
+    text-align: left;
+}
+
+.journal_footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+    padding: 25px;
+}
+
+.journal_footer_last {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    padding-bottom: 30px;
+}
+
+.journal_footer_last_left p {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+.journal_footer_last_left p::after {
+    position: absolute;
+    content: '';
+    top: 20px;
+    left: 0;
+    width: 104px;
+    height: 1px;
+    background: #26a9c7;
+}
+
+.journal_footer_last_right {
+    text-align: center;
+}
+
+/* ============================= service part start ===================== */
+
+#about_service {
+    padding-bottom: 80px;
+    background: #f9f9f9;
+}
+
+.about_service_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_service_left {
+    width: 570px;
+}
+
+.about_service_right {
+    width: 570px;
+}
+
+.common_header {
+    padding-bottom: 30px;
+}
+
+.common_header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.common_header h2::after {
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 185px;
+    width: 100px;
+    height: 2px;
+    background: #d9d9d9;
+}
+
+.about2_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about2_photo {
+    width: 196px;
+}
+
+.about2_photo img {
+    width: 100%;
+}
+
+.about2_text {
+    width: 345px;
+}
+
+.about2_text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #666666;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.about2_text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #666666;
+}
+ 
+
+.service2_item {
+    display: flex;
+    padding-bottom:20px;
+}
+
+.service2_text {
+    padding-left: 30px;
+}
+
+.service2_text h2 {
+    padding-bottom: 17px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #444444;
+}
+
+
+.service2_text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+}
+
+/* ============== footer part start =========== */
+ 
+#footer{
+    background: #373737;
+    padding:68px 0; 
+}
+
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_item1{
+    width:255px;
+}
+
+.footer_item1 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #f0f0f0;
+    padding-bottom:28px;
+    text-transform: uppercase;
+}
+
+
+.footer_item1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #cacaca;
+    padding-bottom:35px;
+}
+
+ul li i{
+    padding-right:9px;
+    color:white;
+    padding-bottom:10px;
+}
+
+ul li{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #cacaca;
+    padding-bottom:10px;
+}
+
+/* ------------------- footer_item2 css ------------------ */
+
+
+.footer_item2{
+    width:255px;
+}
+
+.footer_item2 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #f0f0f0;
+    padding-bottom:28px;
+    text-transform: uppercase;
+}
+
+
+.footer_item2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #cacaca;
+    padding-bottom:35px;
+}
+
+/* --------------- footer_item3 ----------------  */
+
+
+.footer_item3{
+    width:255px;
+}
+
+.footer_p{
+    padding-bottom:27px;
+}
+
+.footer_item3 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #f0f0f0;
+    padding-bottom:28px;
+    text-transform: uppercase;
+}
+
+
+.footer_item3 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #cacaca;
+}
+
+.footer_item3 h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #929292;
+}
+
+/* ------------------ footer_item4 css --------------- */
+
+.footer_item4{
+    width:255px;
+}
+
+.footer_item4 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #f0f0f0;
+    padding-bottom:28px;
+    text-transform: uppercase;
+}
+
+
+.footer_item4 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #cacaca;
+    padding-bottom:35px;
+}
+
+/* ===================== copy right css ============ */
+
+#copy_right{
+    padding:40px 0;
+    background: #333333;
+}
+
+#copy_right p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #cacaca;
+}
+
+/* ================= end of code =========================== */
