@@ -442,11 +442,11 @@ img {
     font-weight: 400;
     color: #666666;
 }
- 
+
 
 .service2_item {
     display: flex;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 .service2_text {
@@ -463,7 +463,7 @@ img {
 }
 
 
-.service2_text p{
+.service2_text p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 22px;
@@ -472,107 +472,107 @@ img {
 }
 
 /* ============== footer part start =========== */
- 
-#footer{
+
+#footer {
     background: #373737;
-    padding:68px 0; 
+    padding: 68px 0;
 }
 
-.footer_main{
+.footer_main {
     display: flex;
     justify-content: space-between;
 }
 
-.footer_item1{
-    width:255px;
+.footer_item1 {
+    width: 255px;
 }
 
-.footer_item1 h2{
+.footer_item1 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 22px;
     font-weight: 700;
     color: #f0f0f0;
-    padding-bottom:28px;
+    padding-bottom: 28px;
     text-transform: uppercase;
 }
 
 
-.footer_item1 p{
+.footer_item1 p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     color: #cacaca;
-    padding-bottom:35px;
+    padding-bottom: 35px;
 }
 
-ul li i{
-    padding-right:9px;
-    color:white;
-    padding-bottom:10px;
+ul li i {
+    padding-right: 9px;
+    color: white;
+    padding-bottom: 10px;
 }
 
-ul li{
-    color:white;
+ul li {
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     color: #cacaca;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
 
 /* ------------------- footer_item2 css ------------------ */
 
 
-.footer_item2{
-    width:255px;
+.footer_item2 {
+    width: 255px;
 }
 
-.footer_item2 h2{
+.footer_item2 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 22px;
     font-weight: 700;
     color: #f0f0f0;
-    padding-bottom:28px;
+    padding-bottom: 28px;
     text-transform: uppercase;
 }
 
 
-.footer_item2 p{
+.footer_item2 p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     color: #cacaca;
-    padding-bottom:35px;
+    padding-bottom: 35px;
 }
 
 /* --------------- footer_item3 ----------------  */
 
 
-.footer_item3{
-    width:255px;
+.footer_item3 {
+    width: 255px;
 }
 
-.footer_p{
-    padding-bottom:27px;
+.footer_p {
+    padding-bottom: 27px;
 }
 
-.footer_item3 h2{
+.footer_item3 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 22px;
     font-weight: 700;
     color: #f0f0f0;
-    padding-bottom:28px;
+    padding-bottom: 28px;
     text-transform: uppercase;
 }
 
 
-.footer_item3 p{
+.footer_item3 p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -580,7 +580,7 @@ ul li{
     color: #cacaca;
 }
 
-.footer_item3 h6{
+.footer_item3 h6 {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     line-height: 25px;
@@ -590,38 +590,38 @@ ul li{
 
 /* ------------------ footer_item4 css --------------- */
 
-.footer_item4{
-    width:255px;
+.footer_item4 {
+    width: 255px;
 }
 
-.footer_item4 h2{
+.footer_item4 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 22px;
     font-weight: 700;
     color: #f0f0f0;
-    padding-bottom:28px;
+    padding-bottom: 28px;
     text-transform: uppercase;
 }
 
 
-.footer_item4 p{
+.footer_item4 p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     color: #cacaca;
-    padding-bottom:35px;
+    padding-bottom: 35px;
 }
 
 /* ===================== copy right css ============ */
 
-#copy_right{
-    padding:40px 0;
+#copy_right {
+    padding: 40px 0;
     background: #333333;
 }
 
-#copy_right p{
+#copy_right p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 22px;
@@ -630,3 +630,37 @@ ul li{
 }
 
 /* ================= end of code =========================== */
+
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid gray;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.btn-success {
+    padding: 10px 20px;
+    border: 1px solid gray;
+    background-color: green;
+}
